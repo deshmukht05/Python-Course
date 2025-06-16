@@ -1,0 +1,7 @@
+print("Array Introduction:")
+print("Although python list can be effectively used as array, Python supports array by importing 'array' module.")
+print("Array is a data structure where all elements are of same data type.")
+print("Array module is imported as - \n\tfrom array import *")
+print("Array importing array module, we can create array using array() function.")
+print("Syntax:\n\tArray_name = array(typecode, [value])")
+print("The typecode informs Python about the type of array.")

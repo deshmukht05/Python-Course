@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./Day-13/attributes of one dimensional array using "
+    ]
+}

@@ -1,0 +1,8 @@
+print("Range Method")
+print("Sytax: range(stop)\nrange(start, stop, step value)")
+print("Represents an immutable sequence of numbers and is commonly used for looping a specific number of times in for loop.")
+print("It can also be used with list() to return a list of items between given range.")
+print()
+print("List from 0 to 4: ", list(range(5)))
+print("List from 5 to 9: ", list(range(5, 10)))
+print("List with step value 2: ", list(range(1, 11, 2)))

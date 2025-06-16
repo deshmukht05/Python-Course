@@ -1,0 +1,10 @@
+print("Sort and Sorted Method")
+print("Sorts members of the list.")
+print("The difference is that sort() sorts the given list whereas sorted() creates new sorted list without changing the given list.")
+print()
+list = [2, 24, 1, 67, 45, 22]
+print("Original List: ", list)
+list.sort()
+print("Sorted List using sort method: ", list)
+sorted(list)
+print("Sorted List using sorted method: ", list)

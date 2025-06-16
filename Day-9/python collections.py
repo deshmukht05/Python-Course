@@ -1,0 +1,6 @@
+print("Python Collections:")
+print("1. List: List is a collection which is ordered and mutable and it allows duplicate values.")
+print("2. Array: Array is a data structure that stores values of same data type.")
+print("3. Tuple: Tuple is a collection whoch is ordered and immutable and it allows duplicate values.")
+print("4. Set: Set is a collection which is unordered and unindexed and it does not allow duplicate values.")
+print("5. Dictionary: Dictionary is a collections which is unordered and mutable and indexed and it does not allow duplicate values.")

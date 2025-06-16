@@ -1,0 +1,71 @@
+print("Capitalize Method")
+print("Use to make first letter in capital letter and others in small letters.")
+str = input("Enter a string: ")
+print(str.capitalize())
+print()
+print()
+
+print("Casefold Method")
+print("Use to make complete string in small letters.")
+str = input("Enter a string: ")
+print(str.casefold())
+print()
+print()
+
+print("Center Method")
+print("Use to center the text")
+str = input("Enter a string: ")
+print(str.center(12, "*"))
+print(str.center(10, " "))
+print(str.center(12, "-"))
+print()
+print()
+
+print("Count Method")
+print("Use to return total non overlapping occurance of substring in the range start to end.")
+str = input("Enter a sentence: ")
+print("No. a in sentence: ", str.count("a"))
+print("No. a in sentence: ", str.count("a", 2))
+print("No. a in sentence: ", str.count("a", 2, 8))
+print()
+print()
+
+print("Endswith Method")
+print("Use to checl whether a string ends with specified suffix.")
+str = "INDIA"
+print(str.endswith("IA"))
+print(str.endswith("N"))
+print()
+print()
+
+print("Expandtabs Method")
+print("Use to return copy of string where all tabs characters are replaced by one or more spaces.")
+str = 'aa\tbb\tcc'
+print(str.expandtabs())
+print(str.expandtabs(2))
+print()
+print()
+
+print("Find Method")
+print("Returns lowest index of string.")
+str = "Tushar"
+print(str.find("T"))
+print(str.find("s"))
+print(str.find("l"))
+print()
+print()
+
+print("Format Method")
+print("Use to format a string.")
+print("{} is {}".format("Mango", "Apple"))
+print("{1} is {0}".format("Mango", "Apple"))
+str = "{m} has {n} days"
+print(str.format(m="March", n=30))
+print()
+print()
+
+print("Index Method")
+print("Use to find the index value.")
+str = "Tushar"
+print("Index of T: ", str.index("T"))
+print("Index of l", str.index("l"))

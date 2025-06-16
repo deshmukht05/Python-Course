@@ -1,0 +1,7 @@
+print("Count Method")
+print("Use to return total non-overlapping occurence of substring in the range start to end.")
+str = input("Enter a sentence: ")
+print("No. of a in sentence: ", str.count("a"))
+print("No. of a in sentence from position 2: ", str.count("a", 2))
+print("No. of a in sentence from position 2 to 8: ", str.count("a", 2, 8))
+print()

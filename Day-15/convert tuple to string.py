@@ -1,0 +1,6 @@
+print("Convert tuple to string.")
+t = (1, 2, 4, 5)
+print("Tuple type: ", type(t))
+s = str(t)
+print("String: ", s)
+print("type: ", type(s))

@@ -1,0 +1,7 @@
+print("Center Method")
+print("Use to center the text")
+str = input("Enter a string: ")
+print(str.center(12, "*"))
+print(str.center(10, " "))
+print(str.center(12, "-"))
+print()

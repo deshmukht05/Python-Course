@@ -1,0 +1,6 @@
+print("Casefold Method")
+print("Use to make complete string in small letters.")
+str = input("Enter a string: ")
+print(str.casefold())
+print()
+print()
